@@ -44,4 +44,120 @@
     min-height: 320px;
     border-radius: 30px;
     border: none;
+    box-shadow: 0 0 20px #0b5dd73f;
+}
+
+/* ABOUT DESIGN */
+#about {
+    padding: 100px 0;
+}
+
+#about img {
+    width: 600px;
+    height: 450px;
+    border-radius: 30px;
+    border: 4px solid #FFF;
+    box-shadow: 0 0 30px #0b5dd73f;
+}
+
+#about p {
+    width: 80%;
+    text-align: justify;
+}
+
+/* CALL TO ACTION */
+.cta {
+    height: 80vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.445) 0%, rgba(9, 9, 121, 0.432) 44%, rgba(0, 213, 255, 0.445) 100%), url('./images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* REVIEWS */
+.testimonials img{
+    width: 85px;
+}
+
+.testimonials {
+    padding: 20px;
+    border: 3px solid #FFF;
+    box-shadow: 0 0 30px #0b5dd73f;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 100px;
+}
+
+#reviews h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/* FAQS */
+.faq {
+    background-color: #fafafa;
+}
+
+#faq h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.faq-section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: #0D6EFD;
+}
+/* ACCORDION */
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 30px !important;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 30px !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid #0b5ed7;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color:  #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0b5ed7;
+    color: #FFF;
+}
+
+.accordion-button:hover {
+    background-color: #0b5ed7;
+    color: #FFF;
+}
+
+/* FOOTER */
+footer {
+    padding: 50px 0;
+    background-color: #0b5ed7;
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer .form-control {
+    border-radius: 7px 0 0 7px !important;
 }
